@@ -1,0 +1,40 @@
+<!-- template.html -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <style type="text/css">
+            body{
+                font-family:"Helvetica Neue UltraLight",helvetica,verdana;
+                margin-left:0;
+                margin-right:0;
+            }
+            section{
+                padding-left:15px;
+                padding-right:290px;
+                padding-bottom:120px;
+                font-size:16px;
+            }
+            h1{
+                font-size: 16px;
+                padding-right:285px;
+                text-align:center;
+            }
+            img{
+                display: block;
+                padding-left: 50px;
+                 /* 4:3 dimensions */
+                width: 220px;
+                height:165px;
+            }
+        </style>
+    </head>
+    <body>
+       <h1>[[[name]]]</h1>
+       <img src="[[[image]]]" alt="" />
+       <section>
+            <p>[[[full_description]]]</p>
+            <p>[[[history]]]</p>
+       </section>
+    </body>
+</html>

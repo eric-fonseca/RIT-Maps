@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		849D315C1A02E086008A2746 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 849D315B1A02E086008A2746 /* main.m */; };
+		849D315F1A02E086008A2746 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 849D315E1A02E086008A2746 /* AppDelegate.m */; };
+		849D31621A02E086008A2746 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849D31611A02E086008A2746 /* MasterViewController.m */; };
+		849D31651A02E086008A2746 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849D31641A02E086008A2746 /* DetailViewController.m */; };
+		849D31681A02E086008A2746 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849D31661A02E086008A2746 /* Main.storyboard */; };
+		849D316A1A02E086008A2746 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849D31691A02E086008A2746 /* Images.xcassets */; };
+		849D316D1A02E086008A2746 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849D316B1A02E086008A2746 /* LaunchScreen.xib */; };
+		849D31791A02E086008A2746 /* RIT_MapsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 849D31781A02E086008A2746 /* RIT_MapsTests.m */; };
+		849D31841A02E101008A2746 /* all-rit-buildings.js in Resources */ = {isa = PBXBuildFile; fileRef = 849D31821A02E101008A2746 /* all-rit-buildings.js */; };
+		849D31851A02E101008A2746 /* all-rit-polygons.js in Resources */ = {isa = PBXBuildFile; fileRef = 849D31831A02E101008A2746 /* all-rit-polygons.js */; };
+		849D318C1A02E306008A2746 /* DataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 849D31891A02E306008A2746 /* DataStore.m */; };
+		849D318D1A02E306008A2746 /* MyMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 849D318B1A02E306008A2746 /* MyMarker.m */; };
+		849D31901A02E32A008A2746 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849D318F1A02E32A008A2746 /* MapKit.framework */; };
+		849D31921A02E330008A2746 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849D31911A02E330008A2746 /* CoreLocation.framework */; };
+		849D31BD1A09593A008A2746 /* RITBuilding.m in Sources */ = {isa = PBXBuildFile; fileRef = 849D31BC1A09593A008A2746 /* RITBuilding.m */; };
+		849D31C51A0EA7AC008A2746 /* BuildingDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 849D31C41A0EA7AC008A2746 /* BuildingDetailsVC.m */; };
+		849D31C71A0EE738008A2746 /* template.html in Resources */ = {isa = PBXBuildFile; fileRef = 849D31C61A0EE738008A2746 /* template.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		849D31731A02E086008A2746 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 849D314E1A02E086008A2746 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 849D31551A02E086008A2746;
+			remoteInfo = "RIT Maps";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		849D31561A02E086008A2746 /* RIT Maps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RIT Maps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		849D315A1A02E086008A2746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849D315B1A02E086008A2746 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		849D315D1A02E086008A2746 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		849D315E1A02E086008A2746 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		849D31601A02E086008A2746 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MasterViewController.h; path = "RIT Maps/MasterViewController.h"; sourceTree = "<group>"; };
+		849D31611A02E086008A2746 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MasterViewController.m; path = "RIT Maps/MasterViewController.m"; sourceTree = "<group>"; };
+		849D31631A02E086008A2746 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = "RIT Maps/DetailViewController.h"; sourceTree = "<group>"; };
+		849D31641A02E086008A2746 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = "RIT Maps/DetailViewController.m"; sourceTree = "<group>"; };
+		849D31671A02E086008A2746 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		849D31691A02E086008A2746 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		849D316C1A02E086008A2746 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		849D31721A02E086008A2746 /* RIT MapsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RIT MapsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		849D31771A02E086008A2746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849D31781A02E086008A2746 /* RIT_MapsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RIT_MapsTests.m; sourceTree = "<group>"; };
+		849D31821A02E101008A2746 /* all-rit-buildings.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "all-rit-buildings.js"; sourceTree = "<group>"; };
+		849D31831A02E101008A2746 /* all-rit-polygons.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "all-rit-polygons.js"; sourceTree = "<group>"; };
+		849D31881A02E306008A2746 /* DataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataStore.h; path = "RIT Maps/DataStore.h"; sourceTree = "<group>"; };
+		849D31891A02E306008A2746 /* DataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataStore.m; path = "RIT Maps/DataStore.m"; sourceTree = "<group>"; };
+		849D318A1A02E306008A2746 /* MyMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyMarker.h; path = "RIT Maps/MyMarker.h"; sourceTree = "<group>"; };
+		849D318B1A02E306008A2746 /* MyMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyMarker.m; path = "RIT Maps/MyMarker.m"; sourceTree = "<group>"; };
+		849D318F1A02E32A008A2746 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		849D31911A02E330008A2746 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		849D31BB1A09593A008A2746 /* RITBuilding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RITBuilding.h; sourceTree = "<group>"; };
+		849D31BC1A09593A008A2746 /* RITBuilding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RITBuilding.m; sourceTree = "<group>"; };
+		849D31C31A0EA7AC008A2746 /* BuildingDetailsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuildingDetailsVC.h; sourceTree = "<group>"; };
+		849D31C41A0EA7AC008A2746 /* BuildingDetailsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuildingDetailsVC.m; sourceTree = "<group>"; };
+		849D31C61A0EE738008A2746 /* template.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = template.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		849D31531A02E086008A2746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849D31921A02E330008A2746 /* CoreLocation.framework in Frameworks */,
+				849D31901A02E32A008A2746 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849D316F1A02E086008A2746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		849D314D1A02E086008A2746 = {
+			isa = PBXGroup;
+			children = (
+				849D31911A02E330008A2746 /* CoreLocation.framework */,
+				849D318F1A02E32A008A2746 /* MapKit.framework */,
+				849D318E1A02E30B008A2746 /* Model */,
+				849D31871A02E133008A2746 /* VC */,
+				849D31861A02E114008A2746 /* Data */,
+				849D31581A02E086008A2746 /* RIT Maps */,
+				849D31751A02E086008A2746 /* RIT MapsTests */,
+				849D31571A02E086008A2746 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		849D31571A02E086008A2746 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				849D31561A02E086008A2746 /* RIT Maps.app */,
+				849D31721A02E086008A2746 /* RIT MapsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		849D31581A02E086008A2746 /* RIT Maps */ = {
+			isa = PBXGroup;
+			children = (
+				849D315D1A02E086008A2746 /* AppDelegate.h */,
+				849D315E1A02E086008A2746 /* AppDelegate.m */,
+				849D31661A02E086008A2746 /* Main.storyboard */,
+				849D31691A02E086008A2746 /* Images.xcassets */,
+				849D316B1A02E086008A2746 /* LaunchScreen.xib */,
+				849D31591A02E086008A2746 /* Supporting Files */,
+			);
+			path = "RIT Maps";
+			sourceTree = "<group>";
+		};
+		849D31591A02E086008A2746 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				849D315A1A02E086008A2746 /* Info.plist */,
+				849D315B1A02E086008A2746 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		849D31751A02E086008A2746 /* RIT MapsTests */ = {
+			isa = PBXGroup;
+			children = (
+				849D31781A02E086008A2746 /* RIT_MapsTests.m */,
+				849D31761A02E086008A2746 /* Supporting Files */,
+			);
+			path = "RIT MapsTests";
+			sourceTree = "<group>";
+		};
+		849D31761A02E086008A2746 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				849D31771A02E086008A2746 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		849D31861A02E114008A2746 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				849D31C61A0EE738008A2746 /* template.html */,
+				849D31821A02E101008A2746 /* all-rit-buildings.js */,
+				849D31831A02E101008A2746 /* all-rit-polygons.js */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		849D31871A02E133008A2746 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				849D31601A02E086008A2746 /* MasterViewController.h */,
+				849D31611A02E086008A2746 /* MasterViewController.m */,
+				849D31631A02E086008A2746 /* DetailViewController.h */,
+				849D31641A02E086008A2746 /* DetailViewController.m */,
+				849D31C31A0EA7AC008A2746 /* BuildingDetailsVC.h */,
+				849D31C41A0EA7AC008A2746 /* BuildingDetailsVC.m */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		849D318E1A02E30B008A2746 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				849D31881A02E306008A2746 /* DataStore.h */,
+				849D31891A02E306008A2746 /* DataStore.m */,
+				849D318A1A02E306008A2746 /* MyMarker.h */,
+				849D318B1A02E306008A2746 /* MyMarker.m */,
+				849D31BB1A09593A008A2746 /* RITBuilding.h */,
+				849D31BC1A09593A008A2746 /* RITBuilding.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		849D31551A02E086008A2746 /* RIT Maps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849D317C1A02E086008A2746 /* Build configuration list for PBXNativeTarget "RIT Maps" */;
+			buildPhases = (
+				849D31521A02E086008A2746 /* Sources */,
+				849D31531A02E086008A2746 /* Frameworks */,
+				849D31541A02E086008A2746 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RIT Maps";
+			productName = "RIT Maps";
+			productReference = 849D31561A02E086008A2746 /* RIT Maps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		849D31711A02E086008A2746 /* RIT MapsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849D317F1A02E086008A2746 /* Build configuration list for PBXNativeTarget "RIT MapsTests" */;
+			buildPhases = (
+				849D316E1A02E086008A2746 /* Sources */,
+				849D316F1A02E086008A2746 /* Frameworks */,
+				849D31701A02E086008A2746 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				849D31741A02E086008A2746 /* PBXTargetDependency */,
+			);
+			name = "RIT MapsTests";
+			productName = "RIT MapsTests";
+			productReference = 849D31721A02E086008A2746 /* RIT MapsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		849D314E1A02E086008A2746 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Eric Fonseca";
+				TargetAttributes = {
+					849D31551A02E086008A2746 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					849D31711A02E086008A2746 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 849D31551A02E086008A2746;
+					};
+				};
+			};
+			buildConfigurationList = 849D31511A02E086008A2746 /* Build configuration list for PBXProject "RIT Maps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 849D314D1A02E086008A2746;
+			productRefGroup = 849D31571A02E086008A2746 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				849D31551A02E086008A2746 /* RIT Maps */,
+				849D31711A02E086008A2746 /* RIT MapsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		849D31541A02E086008A2746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849D31851A02E101008A2746 /* all-rit-polygons.js in Resources */,
+				849D31681A02E086008A2746 /* Main.storyboard in Resources */,
+				849D316D1A02E086008A2746 /* LaunchScreen.xib in Resources */,
+				849D31841A02E101008A2746 /* all-rit-buildings.js in Resources */,
+				849D31C71A0EE738008A2746 /* template.html in Resources */,
+				849D316A1A02E086008A2746 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849D31701A02E086008A2746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		849D31521A02E086008A2746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849D318C1A02E306008A2746 /* DataStore.m in Sources */,
+				849D315F1A02E086008A2746 /* AppDelegate.m in Sources */,
+				849D31621A02E086008A2746 /* MasterViewController.m in Sources */,
+				849D31C51A0EA7AC008A2746 /* BuildingDetailsVC.m in Sources */,
+				849D315C1A02E086008A2746 /* main.m in Sources */,
+				849D31651A02E086008A2746 /* DetailViewController.m in Sources */,
+				849D318D1A02E306008A2746 /* MyMarker.m in Sources */,
+				849D31BD1A09593A008A2746 /* RITBuilding.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849D316E1A02E086008A2746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849D31791A02E086008A2746 /* RIT_MapsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		849D31741A02E086008A2746 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 849D31551A02E086008A2746 /* RIT Maps */;
+			targetProxy = 849D31731A02E086008A2746 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		849D31661A02E086008A2746 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849D31671A02E086008A2746 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		849D316B1A02E086008A2746 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849D316C1A02E086008A2746 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		849D317A1A02E086008A2746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		849D317B1A02E086008A2746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		849D317D1A02E086008A2746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RIT Maps/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		849D317E1A02E086008A2746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RIT Maps/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		849D31801A02E086008A2746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RIT MapsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RIT Maps.app/RIT Maps";
+			};
+			name = Debug;
+		};
+		849D31811A02E086008A2746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RIT MapsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RIT Maps.app/RIT Maps";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		849D31511A02E086008A2746 /* Build configuration list for PBXProject "RIT Maps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849D317A1A02E086008A2746 /* Debug */,
+				849D317B1A02E086008A2746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849D317C1A02E086008A2746 /* Build configuration list for PBXNativeTarget "RIT Maps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849D317D1A02E086008A2746 /* Debug */,
+				849D317E1A02E086008A2746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		849D317F1A02E086008A2746 /* Build configuration list for PBXNativeTarget "RIT MapsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849D31801A02E086008A2746 /* Debug */,
+				849D31811A02E086008A2746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 849D314E1A02E086008A2746 /* Project object */;
+}
